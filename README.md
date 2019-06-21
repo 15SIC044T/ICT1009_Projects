@@ -15,7 +15,7 @@ In addition, any container may have special properties for containing explosives
 The program is able to read two different sets of files, one set of which contains all the ships information and another for containers. All the information of each ship is stored in one separate XML file which is stored under the same folder called “ships”. Meanwhile, the containers requirements for each customer are stored in one separate XML file and all the container requirement files are stored in another folder called “containers”. The application is able to generate the optimal scheduling plan to load these containers into the proper ships to fulfil different objectives.
 
 The objectives are as following:
-- the containers are scheduled to the minimum number of ships.
+- Display the optimal solution where the containers are scheduled to the minimum number of ships.
 - Display the optimal solution to schedule all the containers to the ships such that the total price of the loading these containers is minimized.
 - Design own reasonable objective function to optimize the container loading.
 
