@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<shipinformation>
+	<ship name="Adda">
+		<owner> Charlie Wang</owner>
+		<value_in_billion> 10</value_in_billion>
+		<company> Adroit </company>
+	</ship>
+	<container type="all">
+		<max_load> 150 </max_load>
+	</container>
+	<container type="basic">
+		<max_load> 150 </max_load>
+		<price_per_container> 5 </price_per_container>
+	</container>
+	<container type="heavy">
+		<max_load> 100 </max_load>
+		<price_per_container> 20 </price_per_container>
+	</container>
+	<container type="refrigerated">
+		<max_load> 80 </max_load>
+	</container>
+</shipinformation>

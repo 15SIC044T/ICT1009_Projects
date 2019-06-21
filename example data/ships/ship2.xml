@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<shipinformation>
+	<ship name="Ace">
+		<owner> Bills Tom</owner>
+		<value_in_billion> 4</value_in_billion>
+		<company> Acess </company>
+	</ship>
+	<container type="all">
+		<max_load> 400 </max_load>
+	</container>
+	<container type="basic">
+		<max_load> 400 </max_load>
+		<price_per_container> 10 </price_per_container>
+	</container>
+	<container type="heavy">
+		<max_load> 200 </max_load>
+		<price_per_container> 30 </price_per_container>
+	</container>
+	<container type_ID="special">
+		<max_load> 150 </max_load>
+	</container>
+</shipinformation>

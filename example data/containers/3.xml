@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<containerRequirement>
+	<customer ID="003">
+		<name> Micheal Jackson</name>
+		<age> 12</age>
+		<company> SIT </company>
+	</customer>
+	<container type_ID="basic">
+		<number> 120 </number>
+	</container>
+	<container type_ID="refrigerated_special">
+		<number> 300 </number>
+		<special_property> explosive,toxic </special_property>
+	</container>
+		<container type_ID="heavy">
+		<number> 100 </number>
+	</container>
+</containerRequirement>

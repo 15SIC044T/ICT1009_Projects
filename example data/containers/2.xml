@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<containerRequirement>
+	<customer ID="002">
+		<name> Alvin Wong</name>
+		<age> 40</age>
+		<company> HTC </company>
+	</customer>
+	<container type_ID="basic">
+		<number> 80 </number>
+	</container>
+	<container type_ID="heavy">
+		<number> 20 </number>
+	</container>
+	<container type_ID="heavy_special">
+		<number> 70 </number>
+		<special_property> explosive,toxic </special_property>
+	</container>
+	<container type_ID="refrigerated">
+		<number> 20 </number>
+	</container>
+</containerRequirement>

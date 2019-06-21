@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<shipinformation>
+	<ship name="Titanic">
+		<owner> James Cameron</owner>
+		<value_in_billion> 2</value_in_billion>
+		<company> Paramount </company>
+	</ship>
+	<container type="all">
+		<max_load> 300 </max_load>
+	</container>
+	<container type="basic">
+		<max_load> 300 </max_load>
+		<price_per_container> 10 </price_per_container>
+	</container>
+	<container type="heavy">
+		<max_load> 100 </max_load>
+		<price_per_container> 20 </price_per_container>
+	</container>
+	<container type_ID="special">
+		<max_load> 80 </max_load>
+	</container>
+	<container type="refrigerated">
+		<max_load> 50 </max_load>
+		<price_per_container> 40 </price_per_container>
+	</container>
+</shipinformation>

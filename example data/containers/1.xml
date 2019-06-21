@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<containerRequirement>
+	<customer ID="001">
+		<name> Ng James</name>
+		<age> 23</age>
+		<company> Apple </company>
+	</customer>
+	<container type_ID="basic">
+		<number> 20 </number>
+	</container>
+	<container type_ID="basic_special">
+		<number> 30 </number>
+		<special_property> explosive,toxic </special_property>
+	</container>
+	<container type_ID="refrigerated">
+		<number> 60 </number>
+	</container>
+</containerRequirement>
